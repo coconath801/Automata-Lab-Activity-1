@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class act1 {
 	public static void main (String [] args) {
 		Scanner scan = new Scanner (System.in);
+		while (true){
 		    System.out.print("Enter a binary string (or type 'exit' to quit): ");
 		    String str = scan.nextLine();
 		    if (str.equalsIgnoreCase("exit")) {
@@ -51,4 +52,5 @@ public class act1 {
 	
 
 }
+
 
